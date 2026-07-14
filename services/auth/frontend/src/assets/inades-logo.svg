@@ -1,0 +1,12 @@
+<svg viewBox="0 0 64 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="INADES-Formation logo">
+  <circle cx="32" cy="32" r="32" fill="#F58220"/>
+  <rect x="8" y="14" width="6" height="36" fill="#FFFFFF"/>
+  <rect x="50" y="14" width="6" height="36" fill="#FFFFFF"/>
+  <rect x="14" y="14" width="10" height="6" fill="#FFFFFF"/>
+  <rect x="40" y="14" width="10" height="6" fill="#FFFFFF"/>
+  <rect x="14" y="44" width="10" height="6" fill="#FFFFFF"/>
+  <rect x="40" y="44" width="10" height="6" fill="#FFFFFF"/>
+  <ellipse cx="32" cy="32" rx="15" ry="9" fill="#FFFFFF"/>
+  <text x="32" y="35" font-family="Georgia, serif" font-size="7.5" font-weight="700" fill="#F58220" text-anchor="middle">INADES</text>
+  <text x="32" y="68" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#F58220" text-anchor="middle">Formation</text>
+</svg>

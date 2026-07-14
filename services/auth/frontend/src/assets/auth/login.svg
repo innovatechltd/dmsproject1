@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Secure login illustration">
+  <defs>
+    <linearGradient id="lg-screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F58220" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFC56B" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="lg-lock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9EEF7"/>
+    </linearGradient>
+  </defs>
+  <!-- base platform -->
+  <ellipse cx="200" cy="300" rx="150" ry="30" fill="currentColor" opacity="0.08"/>
+  <!-- monitor -->
+  <g transform="translate(120 60)">
+    <rect x="0" y="0" width="210" height="140" rx="12" fill="url(#lg-screen)"/>
+    <rect x="14" y="16" width="182" height="108" rx="8" fill="#FFFFFF" opacity="0.16"/>
+    <rect x="150" y="-22" width="72" height="188" rx="10" fill="#0E1526" opacity="0.85" transform="skewY(-12)"/>
+    <rect x="30" y="34" width="90" height="8" rx="4" fill="#FFFFFF" opacity="0.7"/>
+    <rect x="30" y="52" width="120" height="8" rx="4" fill="#FFFFFF" opacity="0.45"/>
+    <rect x="30" y="82" width="60" height="20" rx="6" fill="#FFFFFF" opacity="0.85"/>
+    <rect x="100" y="118" width="10" height="34" fill="currentColor" opacity="0.25"/>
+    <rect x="70" y="150" width="72" height="10" rx="4" fill="currentColor" opacity="0.25"/>
+  </g>
+  <!-- big lock/key badge -->
+  <g transform="translate(40 150)">
+    <circle cx="60" cy="60" r="60" fill="url(#lg-lock)"/>
+    <circle cx="60" cy="60" r="60" fill="none" stroke="#F58220" stroke-opacity="0.35" stroke-width="3"/>
+    <rect x="40" y="56" width="40" height="34" rx="7" fill="#F58220"/>
+    <path d="M46 56v-8a14 14 0 0 1 28 0v8" fill="none" stroke="#F58220" stroke-width="6"/>
+    <circle cx="60" cy="71" r="5" fill="#FFFFFF"/>
+    <rect x="58" y="71" width="4" height="10" rx="2" fill="#FFFFFF"/>
+  </g>
+  <!-- floating shield chips -->
+  <g opacity="0.9">
+    <g transform="translate(300 30)">
+      <path d="M18 0 36 7v14c0 11-8 18-18 22C8 39 0 32 0 21V7z" fill="#2563EB" opacity="0.85"/>
+      <path d="M11 21l5 5 9-11" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(330 170)">
+      <rect width="30" height="30" rx="8" fill="#16A34A" opacity="0.85"/>
+      <path d="M9 15l4 4 8-9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

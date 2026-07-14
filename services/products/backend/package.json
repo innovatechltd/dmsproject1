@@ -1,0 +1,20 @@
+{
+  "name": "@dms/products-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@dms/service-kit": "*",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "supertest": "^7.0.0",
+    "vitest": "^3.0.0"
+  }
+}

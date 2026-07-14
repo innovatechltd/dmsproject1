@@ -1,0 +1,5 @@
+{
+  "name": "auth",
+  "port": 4001,
+  "basePath": "/api/auth"
+}

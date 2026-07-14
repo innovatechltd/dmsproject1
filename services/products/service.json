@@ -1,0 +1,5 @@
+{
+  "name": "products",
+  "port": 4003,
+  "basePath": "/api/products"
+}

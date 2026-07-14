@@ -1,0 +1,21 @@
+{
+  "name": "@dms/orders-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^26.0.0",
+    "vitest": "^3.0.0"
+  }
+}

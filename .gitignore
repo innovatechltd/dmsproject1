@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+
+# Local dev database (embedded PostgreSQL data directory)
+.pgdata/
+
+# Auth service signing keys — generated on first run, never commit
+services/auth/backend/keys/
